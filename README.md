@@ -30,19 +30,19 @@ pip install -r requirements.txt # method 2
 ├── run_scripts
 ```
 ### Dataset
-Please follow [here](https://github.com/zhjohnchan/M3AE?tab=readme-ov-file#1-dataset-preparation-1) and only use the ==SLAKE, VQA RAD, and MedVQA 2019 datasets==.
+Please follow [here](https://github.com/zhjohnchan/M3AE?tab=readme-ov-file#1-dataset-preparation-1) and only use the "SLAKE, VQA RAD, and MedVQA 2019 datasets".
 
 ### External data
-Download the [external_data](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/tigu8498_uni_sydney_edu_au/Ev_GsFFY9BpKi-cOHSFIHecBRxYEB-9jjelVen4WUyyEGg?e=g3bbrC) and put it in the ==download/external_data==
+Download the [external_data](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/tigu8498_uni_sydney_edu_au/Ev_GsFFY9BpKi-cOHSFIHecBRxYEB-9jjelVen4WUyyEGg?e=g3bbrC) and put it in the "download/external_data".
 
 ### Pretrained
-Download the [m3ae pretrained weight](https://drive.google.com/drive/folders/1b3_kiSHH8khOQaa7pPiX_ZQnUIBxeWWn) and put it in the ==download/pretrained==
+Download the [m3ae pretrained weight](https://drive.google.com/drive/folders/1b3_kiSHH8khOQaa7pPiX_ZQnUIBxeWWn) and put it in the "download/pretrained.
 
 ### roberta-base
-Download the [roberta-base](https://drive.google.com/drive/folders/1ouRx5ZAi98LuS6QyT3hHim9Uh7R1YY1H) and put it in the ==download/roberta-base==
+Download the [roberta-base](https://drive.google.com/drive/folders/1ouRx5ZAi98LuS6QyT3hHim9Uh7R1YY1H) and put it in the "download/roberta-base".
 
 ### Checkpoints
-Download the [checkpoints](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/tigu8498_uni_sydney_edu_au/Ev_GsFFY9BpKi-cOHSFIHecBRxYEB-9jjelVen4WUyyEGg?e=g3bbrC) we trained and put it in the ==download/checkpoints==
+Download the [checkpoints](https://unisydneyedu-my.sharepoint.com/:f:/g/personal/tigu8498_uni_sydney_edu_au/Ev_GsFFY9BpKi-cOHSFIHecBRxYEB-9jjelVen4WUyyEGg?e=g3bbrC) we trained and put it in the "download/checkpoints".
 
 
 ## Train & Test
@@ -55,8 +55,9 @@ bash run_scripts/test.sh
 ```
 
 ## Result
-| Method              | Venue      | Open  | Closed | Overall | Open  | Closed | Overall | Overall |
+| Method     | Venue          |           | VQA-RAD    |             |           | SLAKE      |             | VQA-2019    |
 |---------------------|------------|-------|--------|---------|-------|--------|---------|---------|
+|               |       | **Open** | **Closed** | **Overall** | **Open** | **Closed** | **Overall** | **Overall** |
 | BAN         | NeurIPS$_{18}$ | 37.40 | 72.10  | 58.30   | 74.60 | 79.10  | 76.30   | -       |
 | CPRD-BAN    | MICCAI$_{21}$  | 52.50 | 77.90  | 67.80   | 79.50 | 83.40  | 80.10   | -       |
 | MMBERT   | ISBI$_{21}$    | 63.10 | 77.90  | 72.00   | -     | -      | -       | 67.20   |
