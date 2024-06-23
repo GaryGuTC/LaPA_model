@@ -1,4 +1,4 @@
-# [CVPRW 2024] LaPA: Latent Prompt Assist Model For Medical Visual Question Answering
+# [CVPR2024 Workshop (oral)] LaPA: Latent Prompt Assist Model For Medical Visual Question Answering
 This is the implementation of LaPA: Latent Prompt Assist Model For Medical Visual Question Answering. [[CVPR Workshop]](https://ai-medical-image-analysis.github.io/4th/) [[Paper]](https://arxiv.org/pdf/2404.13039.pdf) [[Video]](https://drive.google.com/file/d/19LXZPiBJLyohXDUEKj4NvH7ds8X3r3aZ/view?usp=drive_link)
 ## Abstract
 <div  align="center">    
